@@ -1,0 +1,9 @@
+
+<app-add-customer (addOrder)="addOrder($event)"></app-add-customer>
+<app-order-item
+ *ngFor="let x of order"
+ [x]="x"
+(deleteOrder)="deletOrder($event)">
+    
+
+</app-order-item>

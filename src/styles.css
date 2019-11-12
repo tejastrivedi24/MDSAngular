@@ -1,0 +1,27 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:Roboto, Helvetica Neue, sans-serif;
+    
+}
+a{
+    color:#333;
+    text-decoration:none;
+}
+.container{
+    padding:1 rem;
+}
+.btn{
+    display:inline-block;
+    border:none;
+    background:rgb(29, 29, 68);
+    color:#fff;
+    padding:7px 20px;
+    cursor:pointer;
+}
+.btn:hover{
+    background:rgb(143, 96, 207);
+}
